@@ -76,7 +76,7 @@ html, body {
     border-bottom: 1px solid purple;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
     .buttons {
         display: none;
     }
@@ -521,6 +521,13 @@ html, body {
 
 #Svg-section {
     width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    #Svg-section {
+        width: 100%;
+        display: none;
+    }
 }
 
 @keyframes rotation {
