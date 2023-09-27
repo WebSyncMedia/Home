@@ -1203,3 +1203,244 @@ html, body {
     }
 }
 
+#Section4 {
+    width: 100%;
+    height: 1700px;
+    background-color: var(--color2);
+    padding-top: 50px;
+}
+
+#Section4-title1 {
+    color: pink;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #Section4-title1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+#Section4-text {
+    width: 100%;
+    padding: 40px 80px;
+}
+
+@media screen and (max-width: 600px) {
+    #Section4-text {
+        width: 100%;
+        padding: 20px 20px;
+    }
+}
+
+.section4-text1 {
+    color: var(--color1);
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .section4-text1 {
+        font-size: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+#Section4-text2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: var(--color1);
+}
+
+@media screen and (max-width: 600px) {
+    #Section4-text2 {
+        display: block;
+        width: 100%;
+        background-color: var(--color1);
+    }
+}
+
+.section4-text2-container1 {
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 50%;
+    padding: 60px 0 0 120px;
+}
+
+@media screen and (max-width: 600px) {
+    .section4-text2-container1 {
+        width: 100%;
+        padding: 30px 20px;
+    }
+}
+
+#Section4-title2 {
+    color: pink;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    #Section4-title2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+.s-title {
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .s-title {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+}
+
+.section4-text2 {
+    color: var(--color2);
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .section4-text2 {
+        color: var(--color2);
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+.section4-image {
+    object-fit: contain;
+    width: 80%;
+    margin-right: 20%;
+}
+
+@media screen and (max-width: 600px) {
+    
+.section4-image {
+    object-fit: contain;
+    width: 100%;
+    margin-right: 0;
+    margin-top: -50px;
+}
+}
+
+.section4-text2-container2 {
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .section4-text2-container2 {
+        width: 100%;
+    }
+}
+
+#Section4-text3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: var(--color2);
+}
+
+@media screen and (max-width: 600px) {
+    #Section4-text3 {
+        display: block;
+        width: 100%;
+        background-color: var(--color2);
+    }
+}
+
+.section4-text3-container1 {
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 50%;
+    padding: 60px 120px 60px 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .section4-text3-container1 {
+        width: 100%;
+        padding: 30px 20px;
+    }
+}
+
+.section4-text3-container2 {
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 50%;
+    padding: 60px 70px;
+}
+
+@media screen and (max-width: 600px) {
+    .section4-text3-container2 {
+        width: 100%;
+        padding: 30px 20px;
+    }
+}
+
+.s-title2 {
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .s-title2 {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+}
+
+.section4-text3 {
+    color: var(--color1);
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .section4-text3 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+.section4-image2 {
+    object-fit: contain;
+    width: 80%;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 600px) {
+    .section4-image2 {
+        object-fit: contain;
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
