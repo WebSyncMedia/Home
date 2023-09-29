@@ -739,7 +739,7 @@ html, body {
 
 #Down-section {
     width: 100%;
-    height: 700px;
+    height: 750px;
     background-color: #202020;
     margin-top: 50px;
     padding-top: 40px;
@@ -901,7 +901,7 @@ html, body {
 
 .qimage {
     object-fit: contain;
-    width: 25%;
+    width: 26%;
     margin-top: 30px; 
     margin-left: 75px;
 }
@@ -912,6 +912,10 @@ html, body {
         width: 70%;
         margin: 0 0 0 15%;
     }
+}
+
+.qimage:hover {
+    opacity: 0.5;
 }
 
 #Section1-text1, #Section1-text2 {
@@ -1925,5 +1929,9 @@ html, body {
     .cop-text {
         font-size: 14px;
     }
+}
+
+.hideme {
+    opacity: 0;
 }
 
