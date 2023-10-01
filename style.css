@@ -954,6 +954,11 @@ html, body {
     margin-top: 100px;
     height: 600px;
     background-color: var(--color1);
+    color: var(--color2);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
 }
 
 @media screen and (max-width: 600px) {
@@ -963,6 +968,7 @@ html, body {
         margin-top: 20px;
         height: 1200px;
         background-color: var(--color1);
+        font-size: 20px;
     }
 }
 
@@ -2025,7 +2031,7 @@ html {
 
 @media screen and (max-width: 600px) {
     #S-text1 {
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 20px;
     }
 }
@@ -2203,6 +2209,239 @@ html {
         font-size: 12px;
         font-weight: bold;
         text-align: left;
+    }
+}
+
+
+
+
+
+#Works-title1 {
+    width: 500px;
+    margin-top: 170px;
+    margin-left: 130px;
+    margin-bottom: 700px;
+}
+
+@media screen and (max-width: 600px) {
+    #Works-title1 {
+        width: 80%;
+        margin-top: 100px;
+        margin-left: 10%;
+    }
+}
+
+#Wts1-title {
+    color: var(--color2);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #Wts1-title {
+        font-size: 35px;
+    }
+}
+
+#W-image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 600px) {
+    #W-image1 {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+#W-image {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 15%;
+    right: 12%;
+}
+
+@media screen and (max-width: 600px) {
+    #W-image {
+        width: 80%;
+        height: 350px;
+        position: absolute;
+        top: 52%;
+        left: 10%;
+    }
+}
+
+#W-text1 {
+    color: var(--color2);
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #W-text1 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}
+
+
+
+#Reviews-title1 {
+    width: 500px;
+    margin-top: 170px;
+    margin-left: 130px;
+    margin-bottom: 700px;
+}
+
+@media screen and (max-width: 600px) {
+    #Reviews-title1 {
+        width: 80%;
+        margin-top: 100px;
+        margin-left: 10%;
+    }
+}
+
+#Rts1-title {
+    color: var(--color2);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #Rts1-title {
+        font-size: 35px;
+    }
+}
+
+#R-image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 600px) {
+    #R-image1 {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+#R-image {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 15%;
+    right: 12%;
+}
+
+@media screen and (max-width: 600px) {
+    #R-image {
+        width: 80%;
+        height: 350px;
+        position: absolute;
+        top: 52%;
+        left: 10%;
+    }
+}
+
+#R-text1 {
+    color: var(--color2);
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #R-text1 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}
+
+
+
+#Pricing-title1 {
+    width: 500px;
+    margin-top: 170px;
+    margin-left: 130px;
+    margin-bottom: 700px;
+}
+
+@media screen and (max-width: 600px) {
+    #Pricing-title1 {
+        width: 80%;
+        margin-top: 100px;
+        margin-left: 10%;
+    }
+}
+
+#Pts1-title {
+    color: var(--color2);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #Pts1-title {
+        font-size: 35px;
+    }
+}
+
+#P-image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 600px) {
+    #P-image1 {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+#P-image {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 15%;
+    right: 12%;
+}
+
+@media screen and (max-width: 600px) {
+    #P-image {
+        width: 80%;
+        height: 350px;
+        position: absolute;
+        top: 52%;
+        left: 10%;
+    }
+}
+
+#P-text1 {
+    color: var(--color2);
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #P-text1 {
+        font-size: 16px;
+        margin-top: 20px;
     }
 }
 
