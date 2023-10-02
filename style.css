@@ -2154,6 +2154,7 @@ html {
     height: 400px;
     background-color: var(--color1);
     margin: 0 auto;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
