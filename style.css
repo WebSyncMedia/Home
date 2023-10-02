@@ -2154,7 +2154,6 @@ html {
     height: 400px;
     background-color: var(--color1);
     margin: 0 auto;
-    text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -2163,6 +2162,10 @@ html {
         height: 250px;
         margin: 0 0 20px 5%;
     }
+}
+
+.services-container-a {
+    text-decoration: none;
 }
 
 .services-container:hover {
