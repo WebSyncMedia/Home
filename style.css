@@ -683,7 +683,7 @@ html, body {
     .image {
         width: 70%;
         position: absolute;
-        top: 5%;
+        top: 7%;
         left: 15%;
         margin: 0;
         object-fit: contain;
@@ -728,26 +728,29 @@ html, body {
 
 @media screen and (max-width: 600px) {
     .image2 {
-        width: 90%;
+        width: 100%;
         height: 250px;
         position: absolute;
         top: 0%;
-        left: 5%;
+        left: 0%;
         object-fit: contain;
     }
 }
 
 #Down-section {
     width: 100%;
-    height: 750px;
+    height: 100%;
     background-color: #202020;
     margin-top: 50px;
     padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 @media screen and (max-width: 600px) {
     #Down-section {
-        height: 1300px;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 30px;
         margin-top: 650px;
         padding-top: 30px;
     }
@@ -872,9 +875,10 @@ html, body {
 #Section1 {
     background-image: url("image3.jpg");
     width: 100%;
-    height: 1000px;
+    height: 100%;
     background-size: 100%;
     padding-top: 120px;
+    padding-bottom: 30px;
 }
 
 @media screen and (max-width: 600px) {
@@ -882,7 +886,8 @@ html, body {
         background-image: none;
         background-color: var(--color2);
         width: 100%;
-        height: 400px;
+        height: 100%;
+        padding-bottom: 30px;
         padding-top: 0;
     }
 }
@@ -976,14 +981,16 @@ html, body {
 
 #Section2 {
     width: 100%;
-    height: 1200px;
+    height: 100%;
+    padding-bottom: 30px;
     background-color: var(--color2);
 }
 
 @media screen and (max-width: 600px) {
     #Section2 {
         width: 100%;
-        height: 1630px;
+        height: 100%;
+        padding-bottom: 30px;
         background-color: var(--color2);
     }
 }
@@ -1047,7 +1054,8 @@ html, body {
 
 #Section2-info {
     width: 100%;
-    height: 600px;
+    height: 100%;
+    padding-bottom: 30px;
     display: flex;
     background-color: var(--color1);
     padding-top: 50px;
@@ -1056,7 +1064,8 @@ html, body {
 @media screen and (max-width: 600px) {
     #Section2-info {
         width: 100%;
-        height: 800px;
+        height: 100%;
+        padding-bottom: 20px;
         display: block;
         background-color: var(--color1);
         padding-top: 20px;
@@ -1130,15 +1139,17 @@ html, body {
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
-    height: 1000px;
+    height: 100%;
     padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 @media screen and (max-width: 600px) {
     #Section3 {
         background-image: none;
         width: 100%;
-        height: 1120px;
+        height: 100%;
+        padding-bottom: 30px;
         padding-top: 0px;
     }
 }
@@ -1185,6 +1196,13 @@ html, body {
     text-align: center;
 }
 
+@media screen and (max-width: 1300px) {
+    #Section3-text1 {
+        font-size: 12px;
+        margin: 7px 10px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     #Section3-text1 {
         font-size: 15px;
@@ -1194,6 +1212,12 @@ html, body {
 
 .section3-text1 {
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1300px) {
+    .section3-text1 {
+        margin-bottom: 7px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -1217,15 +1241,17 @@ html, body {
 
 #Section4 {
     width: 100%;
-    height: 1800px;
+    height: 100%;
     background-color: var(--color2);
     padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 @media screen and (max-width: 600px) {
     #Section4 {
         width: 100%;
-        height: 2850px;
+        height: 100%;
+        padding-bottom: 30px;
         padding-top: 50px;
     }
 }
@@ -1466,14 +1492,16 @@ html, body {
 
 #Section5 {
     width: 100%;
-    height: 3100px;
+    height: 100%;
+    padding-bottom: 30px;
     background-color: var(--color1);
 }
 
 @media screen and (max-width: 600px) {
     #Section5 {
         width: 100%;
-        height: 4080px;
+        height: 100%;
+        padding-bottom: 30px;
     }
 }
 
@@ -1607,7 +1635,8 @@ html, body {
 
 #Section6 {
     width: 100%;
-    height: 1080px;
+    height: 100%;
+    padding-bottom: 30px;
     background-color: var(--color2);
     padding-top: 40px;
 }
@@ -1615,7 +1644,8 @@ html, body {
 @media screen and (max-width: 600px) {
     #Section6 {
         width: 100%;
-        height: 1600px;
+        height: 100%;
+        padding-bottom: 30px;
     }
 }
 
@@ -1666,14 +1696,16 @@ html, body {
 
 #Section7 {
     width: 100%;
-    height: 1800px;
+    height: 100%;
+    padding-bottom: 30px;
     background-color: var(--color2);
 }
 
 @media screen and (max-width: 600px) {
     #Section7 {
         width: 100%;
-        height: 3470px;
+        height: 100%;
+        padding-bottom: 30px;
         background-color: var(--color2);
     }
 }
@@ -1903,6 +1935,12 @@ html, body {
     font-size: 18px;
 }
 
+@media screen and (max-width: 1300px) {
+    .footer-email {
+        font-size: 8px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .footer-email {
         font-size: 14px;
@@ -1963,6 +2001,12 @@ html, body {
 html {
     scroll-behavior: smooth;
 }
+
+
+
+
+
+
 
 #Services-title1 {
     width: 500px;
@@ -2220,7 +2264,7 @@ html {
         font-weight: bold;
         text-align: left;
     }
-}
+} 
 
 
 
