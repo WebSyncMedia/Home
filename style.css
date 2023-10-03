@@ -2154,6 +2154,8 @@ html {
     height: 400px;
     background-color: var(--color1);
     margin: 0 auto;
+    border: none;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -2161,11 +2163,13 @@ html {
         width: 90%;
         height: 250px;
         margin: 0 0 20px 5%;
+        display: inline-block;
     }
 }
 
 .services-container-a {
     text-decoration: none;
+
 }
 
 .services-container:hover {
