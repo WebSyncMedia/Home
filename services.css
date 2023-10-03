@@ -460,6 +460,24 @@ html {
     }
 }
 
+#S-image-em {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+}
+
+@media screen and (max-width: 600px) {
+    #S-image-em {
+        width: 74%;
+        height: 350px;
+        position: absolute;
+        top: 40%;
+        left: 13%;
+    }
+}
+
 #S-text1 {
     color: var(--color2);
     font-size: 25px;
@@ -877,3 +895,4 @@ html {
 #Gs-button:hover {
     opacity: 0.5;
 }
+
