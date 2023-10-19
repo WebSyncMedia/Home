@@ -46,7 +46,7 @@ $(function(){  // $(document).ready shorthand
               /* If the object is completely visible in the window, fade it it */
               if( bottom_of_window > bottom_of_object ){
                   
-                  $(this).animate({'opacity':'1'},250);
+                  $(this).animate({'opacity':'1'},200);
                       
               }
               
@@ -92,3 +92,23 @@ $(function(){  // $(document).ready shorthand
       cursor.classList.remove('hover');
     });
   })
+
+
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("Up-section").style.height = "80px";
+    document.getElementById("Title-img").style.width = "70%";
+  } else {
+    document.getElementById("Up-section").style.height = "100px";
+    document.getElementById("Title-img").style.width = "80%";
+  }
+}
+
+
+
+
+
