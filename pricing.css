@@ -143,6 +143,8 @@ html, body {
 
 
 
+
+
 /* Up Section */
 
 #Up-section {
@@ -344,6 +346,8 @@ html, body {
 
 
 
+
+
 /* Pricing Section */
 
 #Pricing-title1 {
@@ -497,6 +501,8 @@ html, body {
 
 
 
+
+
 /* Pricing */
 
 #Pricing-container {
@@ -506,7 +512,7 @@ html, body {
     margin-top: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     #Pricing-container {
         width: 90%;
         margin-bottom: 40px;
@@ -533,37 +539,31 @@ tr:nth-child(even) {
 }
 
 .title1 {
-    color: purple;
+    color: var(--color3);
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .title1 {
-        color: purple;
         font-size: 20px;
-        font-weight: bold;
-        text-align: center;
         margin-bottom: 20px;
     }
 }
 
 .title0 {
-    color: pink;
+    color: var(--color4);
     font-size: 40px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .title0 {
-        color: pink;
         font-size: 25px;
-        font-weight: bold;
-        text-align: center;
         margin-bottom: 20px;
     }
 }
@@ -576,11 +576,9 @@ tr:nth-child(even) {
     padding-bottom: 50px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     #Pricing-container2 {
-        width: 100%;
         height: 14200px;
-        background-color: var(--color2);
         padding-top: 50px;
         padding-bottom: 30px;
     }
@@ -593,7 +591,7 @@ tr:nth-child(even) {
     margin-bottom: 40px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .columns {
       width: 100%;
       margin-bottom: 20px;
@@ -602,7 +600,7 @@ tr:nth-child(even) {
   
 .price {
     list-style-type: none;
-    border: 1px solid black;
+    border: 1px solid var(--color2);
     margin: 0;
     padding: 0;
     -webkit-transition: 0.3s;
@@ -620,7 +618,7 @@ tr:nth-child(even) {
 }
   
 .price li {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--color2);
     background-color: var(--color1);
     padding: 20px;
     text-align: center;
@@ -632,14 +630,14 @@ tr:nth-child(even) {
 }
   
 .li-title1 {
-    color: purple;
+    color: var(--color4);
     text-align: center;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 15px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .li-title1 {
         font-size: 18px;
         margin-bottom: 10px;
@@ -653,7 +651,7 @@ tr:nth-child(even) {
     padding-left: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .li-text1 {
         font-size: 16px;
         padding-left: 10px;
@@ -661,14 +659,14 @@ tr:nth-child(even) {
 }
 
 .li-price1 {
-    color: red;
+    color: var(--color3);
     font-weight: bold;
     text-align: left;
     font-size: 18px;
     padding-left: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .li-price1 {
         font-size: 16px;
         padding-left: 10px;
